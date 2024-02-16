@@ -16,12 +16,14 @@ Acesta este un joc simplu, dar captivant, în care controlezi un tanc pe un plan
 ## Caracteristici Avansate
 
 - **Rotația Turelei**: Rotește turela pentru a ținti inamicii (cerință avansată).
-- **Mișcarea Tancurilor Inamice**: Tancurile inamice se mișcă fie pe trasee predefinite (cerință de bază), fie aleator (cerință avansată).
+  ![arunca-tureta](/readmeimgs/arunca-tureta.gif "arunca-tureta")
+- **Mișcarea Tancurilor Inamice**: Tancurile inamice se mișcă aleator (cerință avansată).
+- ![atac](/readmeimgs/atac.gif "atac")
 - **Atacul Tancurilor Inamice**: Tancurile inamice își rotesc turelele către jucător pentru a trage proiectile.
+  ![inamicu-urmareste](/readmeimgs/inamicu-urmareste.gif "inamicu-urmareste")
 
 ## Sfârșitul Jocului
 
 - **Limita de Timp Atinsă**: Dacă se atinge limita de timp, jocul se încheie, afișând scorul final.
 - **Tancul Jucătorului Distrus**: Dacă tancul jucătorului este distrus, se afișează un mesaj corespunzător.
 
-![atac](/readmeimgs/atac.gif "atac")
