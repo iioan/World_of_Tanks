@@ -31,3 +31,6 @@ When the game starts, a random number of enemies are generated. For convenience,
   ![won](/readmeimgs/won.png "won")
 - **Player Tank Destroyed**: If the player's tank is destroyed, a corresponding message is displayed.
   ![lost](/readmeimgs/lost.png "lost")
+
+
+To run the project, open the `gtx-framework-master` folder and follow the rules!
