@@ -19,11 +19,11 @@ When the game starts, a random number of enemies are generated. For convenience,
 ## Advanced Features
 
 - **Turret Rotation**: Rotate the turret to aim at enemies (advanced requirement).
-  ![turret-rotation](/readmeimgs/turret-rotation.gif "turret-rotation")
+  ![arunca-tureta](/readmeimgs/arunca-tureta.gif "arunca-tureta")
 - **Enemy Tank Movement**: Enemy tanks move randomly (advanced requirement).
-  ![attack](/readmeimgs/attack.gif "attack")
+  ![atac](/readmeimgs/atac.gif "atac")
 - **Enemy Tank Attack**: Enemy tanks rotate their turrets towards the player to shoot projectiles.
-  ![enemy-tracking](/readmeimgs/enemy-tracking.gif "enemy-tracking")
+  ![inamicu-urmareste](/readmeimgs/inamicu-urmareste.gif "inamicu-urmareste")
 
 ## End of Game
 
