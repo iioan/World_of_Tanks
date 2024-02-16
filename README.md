@@ -1,34 +1,33 @@
-# World_of_Tanks
+# World of Tanks
 ### Ioan Teodorescu - 333CB
 
-Acesta este un joc simplu, dar captivant, în care controlezi un tanc pe un plan orizontal plin de tancuri inamice și clădiri. Obiectivul jocului este să distrugi cât mai multe tancuri inamice într-un interval de timp limitat (2 minute). Primești puncte pentru fiecare tanc inamic distrus. Jocul este implementat in limbajul C++, cu ajutorul interfetei OpenGL pentru randarea obiectelor 2D si 3D.
+This is a simple yet captivating game where you control a tank on a horizontal plane filled with enemy tanks and buildings. The objective of the game is to destroy as many enemy tanks as possible within a limited time interval (2 minutes). You earn points for each enemy tank destroyed. The game is implemented in C++, using OpenGL interface for rendering 2D and 3D objects.
 
-Atunci când începe jocul, se genereaza un număr de inamici aleator. Pentru ușurință, sus de tot sunt generate timpul rămas și numărul de inamici care sunt încă în viață
+When the game starts, a random number of enemies are generated. For convenience, at the top, the remaining time and the number of enemies still alive are displayed.
 ![gameplay](/readmeimgs/gameplay.png "gameplay")
 
-## Mecanică de Joc
+## Gameplay Mechanics
 
-- **Controale**: Folosește tastele săgeată sau WASD pentru a mișca tancul și pentru a roti turela acestuia.
-- **Obiectiv**: Distrugerea cât mai multor tancuri inamice înainte ca timpul să se scurgă.
-- **Punctaj**: Primești puncte pentru fiecare tanc inamic distrus.
-- **Proiectil**: Trage proiectile din tunul tancului pentru a distruge tancuri inamice și clădiri.
-- **Sănătatea Tancului**: Tancurile inamice pot rezista la un minim de 4 lovituri înainte de a fi distruse.
-- **Vizualizare Avarii**: Tancurile inamice devin tot mai deteriorate, reprezentate vizual prin deformări și întunecare, pe măsură ce primesc lovituri.
-- **Sfârșitul Jocului**: Jocul se încheie atunci când este atinsă limita de timp sau când tancul jucătorului este distrus.
+- **Controls**: Use arrow keys or WASD to move the tank and rotate its turret.
+- **Objective**: Destroy as many enemy tanks as possible before time runs out.
+- **Scoring**: Earn points for each enemy tank destroyed.
+- **Projectile**: Fire projectiles from the tank's cannon to destroy enemy tanks and buildings.
+- **Tank Health**: Enemy tanks can withstand a minimum of 4 hits before being destroyed.
+- **Damage Visuals**: Enemy tanks become increasingly damaged, visually represented by deformations and darkening, as they sustain hits.
+- **End of Game**: The game ends when either the time limit is reached or the player's tank is destroyed.
 
-## Caracteristici Avansate
+## Advanced Features
 
-- **Rotația Turelei**: Rotește turela pentru a ținti inamicii (cerință avansată).
-  ![arunca-tureta](/readmeimgs/arunca-tureta.gif "arunca-tureta")
-- **Mișcarea Tancurilor Inamice**: Tancurile inamice se mișcă aleator (cerință avansată).
-  ![atac](/readmeimgs/atac.gif "atac")
-- **Atacul Tancurilor Inamice**: Tancurile inamice își rotesc turelele către jucător pentru a trage proiectile.
-  ![inamicu-urmareste](/readmeimgs/inamicu-urmareste.gif "inamicu-urmareste")
+- **Turret Rotation**: Rotate the turret to aim at enemies (advanced requirement).
+  ![turret-rotation](/readmeimgs/turret-rotation.gif "turret-rotation")
+- **Enemy Tank Movement**: Enemy tanks move randomly (advanced requirement).
+  ![attack](/readmeimgs/attack.gif "attack")
+- **Enemy Tank Attack**: Enemy tanks rotate their turrets towards the player to shoot projectiles.
+  ![enemy-tracking](/readmeimgs/enemy-tracking.gif "enemy-tracking")
 
-## Sfârșitul Jocului
+## End of Game
 
-- **Limita de Timp Atinsă**: Dacă se atinge limita de timp, jocul se încheie, afișând scorul final.
+- **Time Limit Reached**: If the time limit is reached, the game ends, displaying the final score.
   ![won](/readmeimgs/won.png "won")
-- **Tancul Jucătorului Distrus**: Dacă tancul jucătorului este distrus, se afișează un mesaj corespunzător.
+- **Player Tank Destroyed**: If the player's tank is destroyed, a corresponding message is displayed.
   ![lost](/readmeimgs/lost.png "lost")
-
