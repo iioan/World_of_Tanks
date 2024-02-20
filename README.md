@@ -1,7 +1,7 @@
 # World of Tanks
 ### Ioan Teodorescu - 333CB
 
-This is a simple yet captivating game where you control a tank on a horizontal plane filled with enemy tanks and buildings. The objective of the game is to destroy as many enemy tanks as possible within a limited time interval (2 minutes). You earn points for each enemy tank destroyed. The game is implemented in C++, using OpenGL interface for rendering 2D and 3D objects.
+This is a simple yet captivating game where you control a tank on a horizontal plane filled with enemy tanks and buildings. The objective of the game is to destroy as many enemy tanks as possible within a limited time interval (2 minutes). You earn points for each enemy tank destroyed. As the tank's HP decreases, it becomes increasingly deformed and darker in appearance due to the damage inflicted upon it. The game is implemented in C++, using OpenGL interface for rendering 2D and 3D objects.
 
 When the game starts, a random number of enemies are generated. For convenience, at the top, the remaining time and the number of enemies still alive are displayed.
 ![gameplay](/readmeimgs/gameplay.png "gameplay")
@@ -24,9 +24,9 @@ When the game starts, a random number of enemies are generated. For convenience,
   ![atac](/readmeimgs/atac.gif "atac")
 - **Enemy Tank Attack**: Enemy tanks rotate their turrets towards the player to shoot projectiles.
   ![inamicu-urmareste](/readmeimgs/inamicu-urmareste.gif "inamicu-urmareste")
-
+- **Phong Light Reflection System**: Implemented advanced lighting effects using the Phong reflection model to simulate realistic light interaction on tank surfaces.
+  
 ## End of Game
-
 - **Time Limit Reached**: If the time limit is reached, the game ends, displaying the final score.
   ![won](/readmeimgs/won.png "won")
 - **Player Tank Destroyed**: If the player's tank is destroyed, a corresponding message is displayed.
